@@ -1,0 +1,17 @@
+{
+    "name": "jizhikeji/test",
+    "description": "test",
+    "authors": [
+        {
+            "name": "upup2015",
+            "email": "upup2015@qq.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "jizhikeji\\test\\": "src/"
+        },
+        "files": ["src/User.php"]
+    }
+}
