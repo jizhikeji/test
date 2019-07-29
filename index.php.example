@@ -1,0 +1,8 @@
+<?php
+//把此文件复制到 vendor 同级目录下, 然后访问!
+
+require_once 'vendor/autoload.php';
+
+use jizhikeji\test\User;
+
+$user = new User();
