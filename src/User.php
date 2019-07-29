@@ -1,7 +1,7 @@
 <?php
-namespace jizhikeji/test;
+namespace jizhikeji\test;
 class User {
-	function abc(){
-		echo 'jizhikeji test: abc';
+	function __construct(){
+		echo 'jizhikeji/test: User class';
 	}
 }
